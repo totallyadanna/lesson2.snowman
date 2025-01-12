@@ -49,4 +49,18 @@ t.goto (20,250)
 t.pendown ()
 t.color ("black")
 t.circle (2)
+
+# arms
+t.penup ()
+t.goto (-80,100)
+t.pendown ()
+t.setheading (235)
+t.forward (140)
+
+# arms
+t.penup ()
+t.goto (95,100)
+t.pendown ()
+t.setheading (300)
+t.forward (140)
 t.mainloop ()
